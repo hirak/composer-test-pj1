@@ -8,4 +8,4 @@ before_install:
   - composer config -g github-oauth.github.com cdd81c1c1dc62a6251e7622544d9f9cbd95d6ab5
 
 install:
-  - composer install
+  - composer install --profile --no-progress
