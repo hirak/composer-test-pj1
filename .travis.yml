@@ -5,7 +5,7 @@ php:
   - '5.6'
 
 before_install:
-  - composer self-update
+  #  - composer self-update
   - composer config -g github-oauth.github.com cdd81c1c1dc62a6251e7622544d9f9cbd95d6ab5
   - composer config -g repositories.packagist composer http://packagist.jp
   - composer global require hirak/prestissimo
